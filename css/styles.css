@@ -182,6 +182,12 @@ footer a {
   gap: 20px;
 } */
 
+/* Target the .hero section with .blog class */
+.hero.blog {
+  background: url(../images/home/blog.jpg) no-repeat center/cover;
+  height: 30vh;
+}
+
 /* For Mobile */
 @media (max-width: 768px) {
   .navbar {
